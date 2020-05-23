@@ -1,0 +1,37 @@
+1.一些概念
+  对象：是类的一个实例，有状态(属性)和行为(方法)，
+       如，名字，颜色，品种等是属性
+           跑，叫等是方法
+           
+  类  ：是一个模板，描述一类对象的行为和状态
+  方法：......
+  实例变量：就是每个对象的属性的值
+
+2.一个简单的Java程序
+
+        public class HelloWorld {
+          /* Java程序
+           * 它将打印字符串 Hello World
+           */
+          public static void main(String []args) {
+              System.out.println("Hello World"); // 打印 Hello World
+          }
+      }
+3.注意点
+  1.大小写敏感
+  2.类名：首字母应该大写，如果是多个单词，采用驼峰式，如 MyFirstJavaClass
+  3.方法名：首字母小写，多个单词，后面的单词首字母大写 myFirstJavaClass
+  4.源文件：源文件名称必须和类名相同，当保存文件的时候，后缀是.java
+  5.主方法入口：所有的java程序由 public static void main(String []args)  开始执行
+
+4.标识符
+  1.所有的标识符都应该以字母（A-Z 或者 a-z）,美元符（$）、或者下划线（_）开始
+  2.首字符之后可以是字母（A-Z 或者 a-z）,美元符（$）、下划线（_）或数字的任何字符组合
+  3.关键字不能用作标识符
+  4.标识符是大小写敏感的
+  5.合法标识符举例：age、$salary、_value、__1_value
+  6.非法标识符举例：123abc、-salary
+
+5.修饰符(详情见面试题#2)
+  1.访问控制修饰符 : default, public , protected, private
+  2.非访问控制修饰符 : final, abstract, static, synchronized
